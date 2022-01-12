@@ -1,7 +1,7 @@
 # Bert-Edit-Unsup-TS
 This repo contains the code for the paper "Improving Unsupervised Sentence Simplification Using Fine-Tuned Masked Language Models", from Qom University, Iran.
 
-The code is written in Python 3.7.6 and Pytorch 1.4.0.
+The original Edit-Unsup-TS code is shared [here](https://github.com/ddhruvkr/edit-unsup-ts), written in Python 3.7.6 and Pytorch 1.4.0.
 
 ## An overall look at our framework
 
@@ -32,6 +32,6 @@ Feed the resulting selections to the Google Colab notebook file "bert-fine-tune-
 ## Running Edit-Unsup-TS
 
 Put the final BERT MLM folder in the "fine-tuned_models" folder of the Edit-Unsup-TS directory.
-To start the simplification process, specify the directory of your BERT MLM in the "config.py" file. The rest of the process is identical to the [Edit-Unsup-TS guide](https://github.com/ddhruvkr/edit-unsup-ts).
+To start the simplification process, specify the directory of your BERT MLM in the "config.py" file. The rest of the process is identical to the [Edit-Unsup-TS guide](https://github.com/ddhruvkr/Edit-Unsup-TS/blob/master/README.md).
 
 > The "data-simplification" folder is an important placeholder for the base Wikilarge or Newsela data. Details are explained in the original Edit-Unsup-TS guide.
