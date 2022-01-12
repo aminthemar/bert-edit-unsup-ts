@@ -12,7 +12,7 @@ The code is written in Python 3.7.6 and Pytorch 1.4.0.
 
    > We cannot share the [Newsela](https://newsela.com/data/) training set since it must be requested from the owners.
 
-3. After setting things up, you can either train a classifier on your own data or load one of our pretrained models.
+3. After setting things up, you can either train a classifier on your own data or load one of our pre-trained models.
 <br/> Our Newsela-trained and Wikilarge-trained RoBERTa classifiers can be found [[here]](https://drive.google.com/drive/folders/1w9pK5qOvN-PBCUOo4L5uGND5dbMl0kVc?usp=sharing).
 
 4. Finally, you will need to input your fine-tuning text file (sentences in a line by line format) to get predictions from the classifier. 
@@ -27,7 +27,7 @@ Feed the resulting selections to the Google Colab notebook file "bert-fine-tune-
 
 ## Running Edit-Unsup-TS
 
-Put the final BERT MLM folder in the "fine-tuned_models" folder of Edit-Unsup-TS directory.
-To start the simplification process, first specify the directory of you BERT MLM in the "config.py" file. The rest of the process is identical to the [Edit-Unsup-TS guide] (https://github.com/ddhruvkr/edit-unsup-ts).
+Put the final BERT MLM folder in the "fine-tuned_models" folder of the Edit-Unsup-TS directory.
+To start the simplification process, specify the directory of your BERT MLM in the "config.py" file. The rest of the process is identical to the [Edit-Unsup-TS guide](https://github.com/ddhruvkr/edit-unsup-ts).
 
 > The "data-simplification" folder is an important placeholder for the base Wikilarge or Newsela data. Details are explained in the original Edit-Unsup-TS guide.
