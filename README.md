@@ -3,6 +3,10 @@ This repo contains the code for the paper "Improving Unsupervised Sentence Simpl
 
 The code is written in Python 3.7.6 and Pytorch 1.4.0.
 
+## An overall look at our framework
+
+![alt text](https://github.com/aminthemar/bert-edit-unsup-ts/blob/main/framework%20-%20diagram%20acl.png?raw=true)
+
 ## Data Selection for Fine-tuning
 
 1. First, open the Google Colab notebook file "classification-with-roberta.ipynb" in the root folder or get a copy from here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1z3OF4dG2pNGxZQZbkpNlui-N6cmc9UEG?usp=sharing)
