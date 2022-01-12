@@ -35,3 +35,7 @@ Put the final BERT MLM folder in the "fine-tuned_models" folder of the Edit-Unsu
 To start the simplification process, specify the directory of your BERT MLM in the "config.py" file. The rest of the process is identical to the [Edit-Unsup-TS guide](https://github.com/ddhruvkr/Edit-Unsup-TS/blob/master/README.md).
 
 > The "data-simplification" folder is an important placeholder for the base Wikilarge or Newsela data. Details are explained in the original Edit-Unsup-TS guide.
+
+## Evaluation
+
+We evaluate [our simplification results](https://github.com/aminthemar/bert-edit-unsup-ts/tree/main/outputs) using the [EASSE framework](https://github.com/feralvam/easse).
