@@ -1,5 +1,5 @@
 # Bert-Edit-Unsup-TS
-This repo contains the code for the paper "Improving Unsupervised Sentence Simplification Using Fine-Tuned Masked Language Models", from Qom University, Iran.
+This repo contains the code for the paper "Improving Unsupervised Sentence Simplification Using Fine-Tuned Masked Language Models".
 
 The original Edit-Unsup-TS code is shared [here](https://github.com/ddhruvkr/edit-unsup-ts), written in Python 3.7.6 and Pytorch 1.4.0.
 
