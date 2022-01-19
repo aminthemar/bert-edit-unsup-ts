@@ -17,7 +17,7 @@ The original Edit-Unsup-TS code is shared [here](https://github.com/ddhruvkr/edi
    > We cannot share the [Newsela](https://newsela.com/data/) training set since it must be requested from the owners.
 
 3. After setting things up, you can either train a classifier on your own data or load one of our pre-trained models.
-<br/> Our Newsela-trained and Wikilarge-trained RoBERTa classifiers can be found [[here]](https://drive.google.com/drive/folders/1w9pK5qOvN-PBCUOo4L5uGND5dbMl0kVc?usp=sharing).
+<br/> Our Newsela-trained and Wikilarge-trained RoBERTa simplicity classifiers can be found [[here]](https://drive.google.com/drive/folders/1w9pK5qOvN-PBCUOo4L5uGND5dbMl0kVc?usp=sharing).
 
 4. Finally, you will need to input your fine-tuning text file (sentences in a line by line format) to get predictions from the classifier. 
 <br/> Our prediction text files (from Wikilarge) can be found [[here]](https://drive.google.com/drive/folders/1SEDaXbh_sJX8XYfXOgdCcPkaLgzgVsze?usp=sharing).
